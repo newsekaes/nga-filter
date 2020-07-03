@@ -1,0 +1,32 @@
+{
+    "manifest_version": 2,
+    "name": "NGA帖子过滤器",
+    "version": "1.0",
+    "description": "用来过滤NGA帖子",
+    "icons":
+    {
+        "16": "logo.png",
+        "48": "logo.png",
+        "128": "logo.png"
+    },
+    "page_action": {
+        "default_icon": "logo.png",
+        "default_title": "NGA过滤",
+        "default_popup": "popup.html"
+    },
+    "background": {
+        "page": "background.html"
+    },
+    "permissions": [
+        "http://nga.178.com/*",
+        "tabs",
+        "storage",
+        "declarativeContent"
+    ],
+     "content_scripts": [{
+         "matches": ["http://nga.178.com/*"],
+         "js": ["js/js.js"],
+         "run_at": "document_end",
+         "all_frames": true
+    }]
+}

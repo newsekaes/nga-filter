@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <style>
+        .container {
+            min-width: 200px;
+            padding: 20px;
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            align-items: center;
+        }
+        .item {
+            padding: 10px 0;
+            width: 100%;
+            margin: 10px 0;
+            text-align: center;
+            border: 1px solid #4aa1de;
+            box-shadow: 0 0 5px 1px #4aa1de;
+        }
+        .item-label {
+            font-size: 12px;
+            display: block;
+            margin-bottom: 5px;
+        }
+        .item-input {
+            font-size: 12px;
+        }
+        .confirm {
+            cursor: pointer;
+            margin: 10px;
+            width: 120px;
+            line-height: 35px;
+            background: #3AB2FF;
+            color: #fff;
+            font-size: 18px;
+            border: none;
+            border-radius: 5px;
+            outline: none;
+        }
+        .confirm:active {
+            background: #3AB2aa;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <div class="item">
+        <label class="item-label" for="replies-keyword">屏蔽回复量少的帖子（慎用）</label>
+        <input class="item-input" type="text" placeholder="小于该数字将不会显示" name="replies" id="replies-keyword"/>
+    </div>
+    <div class="item">
+        <label class="item-label" for="topic-keyword">屏蔽主题中的关键词</label>
+        <textarea class="item-input" placeholder="多个关键词请用空格隔开" name="topic" id="topic-keyword"></textarea>
+    </div>
+    <div class="item">
+        <label class="item-label" for="author-keyword">屏蔽用户名</label>
+        <textarea class="item-input" placeholder="多个用户名请用空格隔开" name="author" id="author-keyword"></textarea>
+    </div>
+    <button id="confirm" class="confirm">确定</button>
+</div>
+<script type="text/javascript" src="js/popup.js"></script>
+</body>
+</html>
