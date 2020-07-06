@@ -3,6 +3,7 @@
     "name": "NGA帖子过滤器",
     "version": "1.0",
     "description": "用来过滤NGA帖子",
+    "homepage_url": "https://github.com/newsekaes/nga-filter",
     "icons":
     {
         "16": "logo.png",

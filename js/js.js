@@ -16,6 +16,7 @@ chrome.storage.sync.get({ name: 'filterList', value: [] }, function(item) {
             refresh(filterList)
         })
         observer.observe(topicContainer, { childList: true })
+        refresh(filterList)
     }
 });
 
