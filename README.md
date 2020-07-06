@@ -6,7 +6,8 @@
 
 #### 最新版：[下载地址](https://github.com/newsekaes/nga-filter/releases/)
 
-#### 其他版本：
+#### 所以历史版本：
+- [v0.1.2](https://github.com/newsekaes/nga-filter/releases/tag/0.1.2)
 - [v0.1.0](https://github.com/newsekaes/nga-filter/releases/tag/0.1.0)
 
 ### 一. 安装方法：
