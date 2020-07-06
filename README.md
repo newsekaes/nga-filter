@@ -1,6 +1,14 @@
 ## NGA论坛帖子过滤器
 > 可能是一个并没有什么用的`Chrome`插件吧 `▄█▀█●`
 
+### 下载
+> 进入页面后选择`nga-filter.zip`进行下载
+
+#### 最新版：[下载地址](https://github.com/newsekaes/nga-filter/releases/)
+
+#### 其他版本：
+- [v0.1.0](https://github.com/newsekaes/nga-filter/releases/tag/0.1.0)
+
 ### 一. 安装方法：
 1. 下载并解压缩，随便丢到某个地方就行
 2. 【Chrome】- 【更多工具】- 【扩展程序】-「打开"开发者模式"」-【加载已解压的扩展程序】- 「选择下载解压出的整个文件」
