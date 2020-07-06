@@ -22,7 +22,7 @@ chrome.runtime.onInstalled.addListener(function(){
             {
                 conditions: [
                     // 只有打开百度才显示pageAction
-                    new chrome.declarativeContent.PageStateMatcher({pageUrl: {urlContains: 'http://nga.178.com'}})
+                    new chrome.declarativeContent.PageStateMatcher({pageUrl: {urlContains: '://nga.178.com'}})
                 ],
                 actions: [new chrome.declarativeContent.ShowPageAction()]
             }

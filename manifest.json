@@ -19,13 +19,13 @@
         "page": "background.html"
     },
     "permissions": [
-        "http://nga.178.com/*",
+        "*://nga.178.com/*",
         "tabs",
         "storage",
         "declarativeContent"
     ],
      "content_scripts": [{
-         "matches": ["http://nga.178.com/*"],
+         "matches": ["*://nga.178.com/*"],
          "js": ["js/js.js"],
          "run_at": "document_end",
          "all_frames": true
